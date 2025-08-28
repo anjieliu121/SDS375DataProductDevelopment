@@ -3,3 +3,5 @@
 .RData
 .Ruserdata
 SDS375DataProductDevelopment.Rproj
+.DS_Store
+docs/.DS_Store

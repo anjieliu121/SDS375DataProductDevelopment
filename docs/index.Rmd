@@ -1,29 +1,33 @@
 ---
-title: "index"
-output: html_document
-date: "2025-08-28"
+title: "Anjie Liu"
+image: "me.png"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/anjie-l-a73574253/"
+  - label: GitHub
+    url: "https://github.com/anjieliu121"
+  - label: Email
+    url: "mailto:anjie.liu@utexas.edu"
+output:
+  postcards::trestles
 ---
+ 
+## Bio
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+Hi! I am a senior at the University of Texas at Austin studying Statistics and Data Science & Computer Science. I was involved with data-driven research in fields like petroleum engineering, astronomy and cosmology. Currently, I'm a Polymathic Scholar honors student with a focus in AI Music.
+
+## Education
+
+**The University of Texas at Austin** | Austin, TX
+
+* B.S. in Statistics and Data Science  | August 2022 - May 2026
+
+* B.S.A. Honors in Computer Science | August 2024 - May 2026
+
+---
+Website last updated at
+```{r, echo = FALSE}
+s = format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z")
+cat(s)
 ```
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
